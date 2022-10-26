@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  display: block;
 }
 
 header {
@@ -63,6 +64,16 @@ input#password {
   font-size: 24px;
   font-family: 'Inter', sans-serif;
   font-size: 24px;
+}
+
+aside#lateral {
+  position: absolute;
+  right: 50px;
+  top: 252px;
+}
+
+img#cadu {
+  width: 300px;
 }
 
 ::placeholder {
