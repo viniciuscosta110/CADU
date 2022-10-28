@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div>
+    <div class="pb-28">
       <header class="flex flex-row">
         <a href="./index.html">
           <img src="/images/green_logo.png" alt="Logo image" class="w-40">
@@ -34,14 +34,17 @@
           </a>
         </nav>
       </header>
-      <div class="mt-[68px] ml-[184px] grid w-12/12 grid-cols-2 content-between self-auto">
-        <div>
-            <p class="w-2/4 py-7 bg-white rounded-[40px] border-4 border-[#4245DB] text-center">
-                <strong>Engenharia da Computação<br></br> 1° Período</strong>
+      <div class="mt-[68px] flex flex-col items-center">
+        <div class="w-fit h-fit font-bold text-2xl flex flex-col items-center">
+            <p class="py-9 px-10 bg-white rounded-[40px] border-4 border-[#4245DB] text-center">
+              <strong>Engenharia da Computação</strong> <br/>
+              <strong>1° Período</strong>
             </p>
-            <p class="w-2/4 py-2 text-center text-white">Programação 1</p>
-            <p class="w-2/4 text-center text-white">Matemática Discreta</p>
-            <p class="w-2/4 py-2 text-center text-white">....</p>
+            <div class="flex flex-col gap-6 mt-9 font-bold">
+              <p class="text-center text-white">Programação 1</p>
+              <p class="text-center text-white">Matemática Discreta</p>
+              <p class="text-center text-white">....</p>
+            </div>
         </div>
     </div>
   </body>
