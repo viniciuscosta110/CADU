@@ -1,4 +1,4 @@
-function makeTeachers() {
+function makeResearchs() {
   const content = document.getElementById('content');
 
   const data = [{
@@ -26,4 +26,4 @@ function makeTeachers() {
   content.innerHTML = generatedHtml;  
 }
 
-makeTeachers()
+makeResearchs()
