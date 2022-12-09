@@ -23,7 +23,7 @@ interessar sobre essas atividades.
 
 O projeto será uma aplicação web que pode ser atualizada pelos respectivos gerentes de projetos.
 
-## :rocket: Tecnologias
+## :rocket: Tecnologias (Apenas do Frontend)
 - [TailwindCSS](https://tailwindcss.com/)
 - Javascript
 - CCS3
